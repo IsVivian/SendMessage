@@ -14,6 +14,15 @@
 		4B4182CA1D1A953900F55995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4182C81D1A953900F55995 /* LaunchScreen.storyboard */; };
 		4B4182D51D1A953900F55995 /* SendMessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4182D41D1A953900F55995 /* SendMessageTests.swift */; };
 		4B4182E01D1A953900F55995 /* SendMessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4182DF1D1A953900F55995 /* SendMessageUITests.swift */; };
+		4B4182F11D1A98D200F55995 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182EF1D1A98D200F55995 /* MOBFoundation.framework */; };
+		4B4182F21D1A98D200F55995 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182F01D1A98D200F55995 /* SMS_SDK.framework */; };
+		4B4182F41D1A98F500F55995 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182F31D1A98F500F55995 /* libz.tbd */; };
+		4B4182F61D1A990100F55995 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182F51D1A990100F55995 /* libicucore.tbd */; };
+		4B4182F81D1A990F00F55995 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182F71D1A990F00F55995 /* MessageUI.framework */; };
+		4B4182FA1D1A991600F55995 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182F91D1A991600F55995 /* JavaScriptCore.framework */; };
+		4B4182FC1D1A992100F55995 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182FB1D1A992100F55995 /* libstdc++.tbd */; };
+		4B4182FE1D1A993A00F55995 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182FD1D1A993A00F55995 /* AddressBook.framework */; };
+		4B4183001D1A993F00F55995 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182FF1D1A993F00F55995 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,16 @@
 		4B4182DB1D1A953900F55995 /* SendMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4182DF1D1A953900F55995 /* SendMessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageUITests.swift; sourceTree = "<group>"; };
 		4B4182E11D1A953900F55995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4182EF1D1A98D200F55995 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		4B4182F01D1A98D200F55995 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		4B4182F31D1A98F500F55995 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4B4182F51D1A990100F55995 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		4B4182F71D1A990F00F55995 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4B4182F91D1A991600F55995 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		4B4182FB1D1A992100F55995 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4B4182FD1D1A993A00F55995 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4B4182FF1D1A993F00F55995 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		4B4183011D1A99B800F55995 /* SendMessage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendMessage-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4183001D1A993F00F55995 /* AddressBookUI.framework in Frameworks */,
+				4B4182FE1D1A993A00F55995 /* AddressBook.framework in Frameworks */,
+				4B4182FC1D1A992100F55995 /* libstdc++.tbd in Frameworks */,
+				4B4182FA1D1A991600F55995 /* JavaScriptCore.framework in Frameworks */,
+				4B4182F81D1A990F00F55995 /* MessageUI.framework in Frameworks */,
+				4B4182F61D1A990100F55995 /* libicucore.tbd in Frameworks */,
+				4B4182F41D1A98F500F55995 /* libz.tbd in Frameworks */,
+				4B4182F11D1A98D200F55995 /* MOBFoundation.framework in Frameworks */,
+				4B4182F21D1A98D200F55995 /* SMS_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +105,13 @@
 		4B4182B31D1A953900F55995 = {
 			isa = PBXGroup;
 			children = (
+				4B4182FF1D1A993F00F55995 /* AddressBookUI.framework */,
+				4B4182FD1D1A993A00F55995 /* AddressBook.framework */,
+				4B4182FB1D1A992100F55995 /* libstdc++.tbd */,
+				4B4182F91D1A991600F55995 /* JavaScriptCore.framework */,
+				4B4182F71D1A990F00F55995 /* MessageUI.framework */,
+				4B4182F51D1A990100F55995 /* libicucore.tbd */,
+				4B4182F31D1A98F500F55995 /* libz.tbd */,
 				4B4182BE1D1A953900F55995 /* SendMessage */,
 				4B4182D31D1A953900F55995 /* SendMessageTests */,
 				4B4182DE1D1A953900F55995 /* SendMessageUITests */,
@@ -97,12 +132,14 @@
 		4B4182BE1D1A953900F55995 /* SendMessage */ = {
 			isa = PBXGroup;
 			children = (
+				4B4182EE1D1A98D200F55995 /* SMS_SDK */,
 				4B4182BF1D1A953900F55995 /* AppDelegate.swift */,
 				4B4182C11D1A953900F55995 /* ViewController.swift */,
 				4B4182C31D1A953900F55995 /* Main.storyboard */,
 				4B4182C61D1A953900F55995 /* Assets.xcassets */,
 				4B4182C81D1A953900F55995 /* LaunchScreen.storyboard */,
 				4B4182CB1D1A953900F55995 /* Info.plist */,
+				4B4183011D1A99B800F55995 /* SendMessage-Bridging-Header.h */,
 			);
 			path = SendMessage;
 			sourceTree = "<group>";
@@ -123,6 +160,15 @@
 				4B4182E11D1A953900F55995 /* Info.plist */,
 			);
 			path = SendMessageUITests;
+			sourceTree = "<group>";
+		};
+		4B4182EE1D1A98D200F55995 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4B4182EF1D1A98D200F55995 /* MOBFoundation.framework */,
+				4B4182F01D1A98D200F55995 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,10 +445,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SendMessage/SMS_SDK",
+				);
 				INFOPLIST_FILE = SendMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.SendMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SendMessage/SendMessage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +463,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SendMessage/SMS_SDK",
+				);
 				INFOPLIST_FILE = SendMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.SendMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SendMessage/SendMessage-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -421,10 +480,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SendMessageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.SendMessageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SendMessage/SendMessageTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMessage.app/SendMessage";
 			};
 			name = Debug;
@@ -433,10 +495,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SendMessageTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.SendMessageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SendMessage/SendMessageTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendMessage.app/SendMessage";
 			};
 			name = Release;

@@ -13,9 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let appKey = "142efd644c368"
+    let appSecret = "05b22d0e7652ca2e860b6fe21c7512e1"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        SMSSDK.registerApp(appKey, withSecret: appSecret)
+        
+        
         return true
     }
 
