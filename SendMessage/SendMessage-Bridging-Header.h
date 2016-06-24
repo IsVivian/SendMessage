@@ -3,3 +3,4 @@
 //
 
 #import <SMS_SDK/SMSSDK.H>
+#import <MessageUI/MessageUI.h>

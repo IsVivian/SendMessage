@@ -22,6 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SMSSDK.registerApp(appKey, withSecret: appSecret)
         
         
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController() as! ViewController
+        
+        let navi = UINavigationController(rootViewController: vc)
+        
+        self.window?.rootViewController = navi
+        
+
+        
         return true
     }
 

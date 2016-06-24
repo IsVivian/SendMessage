@@ -23,6 +23,7 @@
 		4B4182FC1D1A992100F55995 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182FB1D1A992100F55995 /* libstdc++.tbd */; };
 		4B4182FE1D1A993A00F55995 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182FD1D1A993A00F55995 /* AddressBook.framework */; };
 		4B4183001D1A993F00F55995 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4182FF1D1A993F00F55995 /* AddressBookUI.framework */; };
+		4B54CDF71D1CC43600AE3972 /* IMG_1884.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4B54CDF61D1CC43600AE3972 /* IMG_1884.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		4B4182FD1D1A993A00F55995 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		4B4182FF1D1A993F00F55995 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		4B4183011D1A99B800F55995 /* SendMessage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SendMessage-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B54CDF61D1CC43600AE3972 /* IMG_1884.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1884.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +75,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4182F81D1A990F00F55995 /* MessageUI.framework in Frameworks */,
 				4B4183001D1A993F00F55995 /* AddressBookUI.framework in Frameworks */,
 				4B4182FE1D1A993A00F55995 /* AddressBook.framework in Frameworks */,
 				4B4182FC1D1A992100F55995 /* libstdc++.tbd in Frameworks */,
 				4B4182FA1D1A991600F55995 /* JavaScriptCore.framework in Frameworks */,
-				4B4182F81D1A990F00F55995 /* MessageUI.framework in Frameworks */,
 				4B4182F61D1A990100F55995 /* libicucore.tbd in Frameworks */,
 				4B4182F41D1A98F500F55995 /* libz.tbd in Frameworks */,
 				4B4182F11D1A98D200F55995 /* MOBFoundation.framework in Frameworks */,
@@ -165,6 +167,7 @@
 		4B4182EE1D1A98D200F55995 /* SMS_SDK */ = {
 			isa = PBXGroup;
 			children = (
+				4B54CDF61D1CC43600AE3972 /* IMG_1884.JPG */,
 				4B4182EF1D1A98D200F55995 /* MOBFoundation.framework */,
 				4B4182F01D1A98D200F55995 /* SMS_SDK.framework */,
 			);
@@ -239,6 +242,7 @@
 				TargetAttributes = {
 					4B4182BB1D1A953900F55995 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PZMZRD3BG7;
 					};
 					4B4182CF1D1A953900F55995 = {
 						CreatedOnToolsVersion = 7.3;
@@ -275,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B54CDF71D1CC43600AE3972 /* IMG_1884.JPG in Resources */,
 				4B4182CA1D1A953900F55995 /* LaunchScreen.storyboard in Resources */,
 				4B4182C71D1A953900F55995 /* Assets.xcassets in Resources */,
 				4B4182C51D1A953900F55995 /* Main.storyboard in Resources */,
@@ -446,6 +451,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SendMessage/SMS_SDK",
@@ -454,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.SendMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SendMessage/SendMessage-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -464,6 +472,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SendMessage/SMS_SDK",
@@ -472,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.SendMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SendMessage/SendMessage-Bridging-Header.h";
 			};
 			name = Release;
@@ -546,6 +557,7 @@
 				4B4182E61D1A953900F55995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B4182E71D1A953900F55995 /* Build configuration list for PBXNativeTarget "SendMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +566,7 @@
 				4B4182E91D1A953900F55995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B4182EA1D1A953900F55995 /* Build configuration list for PBXNativeTarget "SendMessageUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +575,7 @@
 				4B4182EC1D1A953900F55995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
